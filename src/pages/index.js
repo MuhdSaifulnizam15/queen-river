@@ -1,8 +1,6 @@
-import { Layout } from "antd";
-import FooterAdmin from "components/FooterLanding";
+import Footer from "components/Footer";
+import Navbar from "components/Navbar";
 import Head from "next/head";
-
-const { Header, Content } = Layout;
 
 const HomePage = () => {
   return (
@@ -12,13 +10,11 @@ const HomePage = () => {
         <meta name="description" content="queenriver.com" />
       </Head>
 
-      <Layout
-        style={{
-          minHeight: "100vh",
-        }}
-      >
-        <FooterAdmin />
-      </Layout>
+      <Navbar />
+
+      <div className="container" style={{ marginTop: 25 }}>Welcome to Home Page</div>
+
+      <Footer />
     </>
   )
 }
