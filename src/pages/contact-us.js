@@ -1,6 +1,8 @@
-import Footer from "components/Footer"
-import Navbar from "components/Navbar"
 import Head from "next/head"
+
+import Footer from "components/Footer"
+import Header from "components/Header"
+import Navbar from "components/Navbar"
 
 const ContactUsPage = () => {
   return (
@@ -11,9 +13,7 @@ const ContactUsPage = () => {
       </Head>
 
       <Navbar />
-
-      <div className="container" style={{ marginTop: 25 }}>Welcome to Contact Us Page</div>
-
+      <Header />
       <Footer />
     </>
   )

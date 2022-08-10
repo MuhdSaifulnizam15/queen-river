@@ -1,6 +1,7 @@
+import { useEffect } from 'react';
+
 // import vendor/package css files here 
 import 'bootstrap/dist/css/bootstrap.css'
-import { useEffect } from 'react';
 
 // import custom css files here
 import 'styles/globals.css';

@@ -1,6 +1,8 @@
+import Head from "next/head";
+
 import Footer from "components/Footer";
 import Navbar from "components/Navbar";
-import Head from "next/head";
+import Header from "components/Header";
 
 const HomePage = () => {
   return (
@@ -11,9 +13,7 @@ const HomePage = () => {
       </Head>
 
       <Navbar />
-
-      <div className="container" style={{ marginTop: 25 }}>Welcome to Home Page</div>
-
+      <Header />
       <Footer />
     </>
   )
