@@ -11,13 +11,13 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6">
             <div className="d-flex align-items-end pb-2">
               <Image src={Logo} alt="Company Logo" width={70} height={70} />
-              <h3 className="text-dark pl-2">Queen River</h3>
+              <h3 className="text-white text-capitalize font-weight-bold pl-2">Queen River</h3>
             </div>
-            <p className="small text-muted">
+            <p className="small text-white">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt.
             </p>
-            <p className="small text-muted mb-0">
+            <p className="small text-white mb-0">
               &copy; Copyrights. All rights reserved.{" "}
               <a className="text-primary" href="#">
                 Queenriver.com
@@ -25,25 +25,25 @@ const Footer = () => {
             </p>
           </div>
           <div className="col-lg-4 col-md-3">
-            <h5 className="text-dark mb-3">Quick links</h5>
-            <ul className="list-unstyled text-muted">
+            <h5 className="text-white text-capitalize font-weight-bold mb-3">Lorem Ipsum</h5>
+            <ul className="list-unstyled text-white">
               <li>
-                <a href="#">Home</a>
+                <a href="#" id="link">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#" id="link">About</a>
               </li>
               <li>
-                <a href="#">Get started</a>
+                <a href="#" id="link">Get started</a>
               </li>
               <li>
-                <a href="#">FAQ</a>
+                <a href="#" id="link">FAQ</a>
               </li>
             </ul>
           </div>
           <div className="col-lg-4 col-md-3">
-            <h5 className="text-dark mb-3">Quick links</h5>
-            <ul className="list-unstyled text-muted">
+            <h5 className="text-white text-capitalize font-weight-bold mb-3">Lorem Ipsum</h5>
+            <ul className="list-unstyled text-white">
               <li>
                 <a href="#">Home</a>
               </li>

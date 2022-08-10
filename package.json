@@ -1,7 +1,7 @@
 {
   "name": "queen-river",
   "version": "1.0.0",
-  "description": "Halal Beef Landing Page using NextJS and Ant Design",
+  "description": "Halal Beef Landing Page using NextJS",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -27,7 +27,9 @@
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "bootstrap": "4.2",
+    "jquery": "^3.6.0",
     "next": "^12.2.3",
+    "popper.js": "^1.16.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
